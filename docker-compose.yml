@@ -3,6 +3,7 @@ version: "3.8"
 networks:
   kafka-net:
     driver: bridge
+    name: kafka-net
 
 volumes:
   zk1-data:
